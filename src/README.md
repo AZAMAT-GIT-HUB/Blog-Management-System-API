@@ -57,27 +57,35 @@ docker-compose exec app php artisan l5-swagger:generate
 
 ## 📂 Структура
 ```bash
-src/
-├── app/
-│   ├── Http/Controllers/Api/
-│   ├── Http/Controllers/Swagger/
-│   ├── Http/Middleware/
-│   ├── Http/Requests/
-│   ├── Http/Resources/
-│   ├── Models/
-│   ├── Providers/
-│   ├── Traits/HasFeaturedImage.php
-│   └── ...
-├── database/
-│   ├── migrations/
-│   ├── seeders/
-├── routes/
-│   └── api.php
-├── storage/
-│   └── api-docs/api-docs.json  <-- для Swagger
-└── tests/
-    ├── Feature/
-    └── Unit/
+blog-management-system/
+│   docker/
+│   ├── mysql/
+│   ├── nginx/
+│   ├── php/
+│   src/
+│   ├── app/
+│   │   ├── Http/Controllers/Api/
+│   │   ├── Http/Controllers/Swagger/
+│   │   ├── Http/Middleware/
+│   │   ├── Http/Requests/
+│   │   ├── Http/Resources/
+│   │   ├── Models/
+│   │   ├── Providers/
+│   │   ├── Traits/HasFeaturedImage.php
+│   │   └── ...
+│   ├── database/
+│   │   ├── migrations/
+│   │   ├── seeders/
+│   ├── routes/
+│   │   └── api.php
+│   ├── storage/
+│   │   └── api-docs/api-docs.json  <-- для Swagger
+│   ├── tests/
+│   │    ├── Feature/
+│   │    └── Unit/
+│   ├── vendor/
+│   └── docker-compose.yaml
+│   ...
 ```
 
 
