@@ -30,7 +30,7 @@
 
 **1. Клонируй репозиторий:**
 ```bash
-git clone https://github.com/your-username/blog-management-system.git
+git clone https://github.com/AZAMAT-GIT-HUB/Blog-Management-System-API.git
 cd blog-management-system
 ```
 
